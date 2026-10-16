@@ -269,7 +269,7 @@ export const Settings: React.FC = () => {
           label="Backend API Endpoint"
           value={serverUrl}
           onChange={(e) => setServerUrl(e.target.value)}
-          placeholder="http://10.123.131.122:4000/api or https://your-server.onrender.com/api"
+          placeholder="https://codesaathi-ai-2.onrender.com/api"
         />
 
         <div className="flex items-center gap-2 pt-1">

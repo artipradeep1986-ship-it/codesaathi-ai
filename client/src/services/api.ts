@@ -24,10 +24,8 @@ export const getApiBaseUrl = (): string => {
   if (import.meta.env.VITE_API_URL) {
     return import.meta.env.VITE_API_URL;
   }
-  if (Capacitor.isNativePlatform()) {
-    return 'http://10.123.131.122:4000/api';
-  }
-  return '/api';
+  // Default to 24/7 cloud backend on Render
+  return 'https://codesaathi-ai-2.onrender.com/api';
 };
 
 export const apiClient = axios.create({
