@@ -1,12 +1,10 @@
-FROM node:20-bullseye-slim
+FROM node:20-bookworm-slim
 
 # Install OpenJDK 17 for real Java code execution & compilation
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends openjdk-17-jdk-headless ca-certificates && \
+RUN mkdir -p /usr/share/man/man1 && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends default-jdk-headless ca-certificates && \
     rm -rf /var/lib/apt/lists/*
-
-ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-ENV PATH=$JAVA_HOME/bin:$PATH
 
 WORKDIR /app
 
