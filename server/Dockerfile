@@ -1,4 +1,4 @@
-FROM node:20-bookworm-slim
+FROM node:22-bookworm-slim
 
 # Install OpenJDK 17 for real Java code execution & compilation
 RUN mkdir -p /usr/share/man/man1 && \
