@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Code bracket -->
+  <text x="80" y="340" font-family="monospace" font-size="280" font-weight="bold" fill="white" opacity="0.15">{</text>
+  <text x="300" y="340" font-family="monospace" font-size="280" font-weight="bold" fill="white" opacity="0.15">}</text>
+  <!-- Camera icon -->
+  <rect x="156" y="176" width="200" height="160" rx="20" fill="white"/>
+  <circle cx="256" cy="266" r="45" fill="#2563EB"/>
+  <circle cx="256" cy="266" r="25" fill="white"/>
+  <rect x="196" y="166" width="60" height="20" rx="8" fill="white"/>
+  <!-- AI sparkle -->
+  <circle cx="380" cy="156" r="8" fill="#FBBF24"/>
+  <circle cx="400" cy="136" r="5" fill="#FBBF24"/>
+  <circle cx="360" cy="140" r="4" fill="#FBBF24"/>
+  <!-- Text -->
+  <text x="256" y="420" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="48" font-weight="bold" fill="white">CodeSaathi</text>
+  <text x="256" y="460" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="24" fill="rgba(255,255,255,0.8)">AI</text>
+</svg>
